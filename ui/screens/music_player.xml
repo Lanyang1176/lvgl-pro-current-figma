@@ -1,23 +1,23 @@
 <screen>
 	<styles>
-		<style name="screen_background" figma_node_id="1:4" bg_color="0x000000" bg_opa="255" border_width="0" radius="0" />
-		<style name="album_artwork" figma_node_id="1:8" bg_color="0x222222" bg_opa="255" border_width="0" radius="0" />
-		<style name="track_title" figma_node_id="1:9" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="track_artist" figma_node_id="1:10" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="audio_format" figma_node_id="1:11" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="playback_time" figma_node_id="1:13" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="progress_track" figma_node_id="1:14" bg_color="0x333333" bg_opa="255" border_width="0" radius="3" />
-		<style name="progress_fill" figma_node_id="1:15" bg_color="0xffffff" bg_opa="255" border_width="0" radius="3" />
-		<style name="bluetooth_label" figma_node_id="1:17" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="eq_mode_label" figma_node_id="1:18" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="all_filter_label" figma_node_id="1:22" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="quality_badge_box" figma_node_id="1:6" bg_color="0x222222" bg_opa="255" border_width="0" radius="2" />
-		<style name="quality_badge_label" figma_node_id="1:7" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="headphone_icon_box" figma_node_id="1:20" bg_opa="0" border_width="0" radius="0" />
-		<style name="headphone_icon_glyph" figma_node_id="4:121" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
-		<style name="header_title_divider" figma_node_id="4:120" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
-		<style name="metadata_progress_divider" figma_node_id="4:119" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
-		<style name="status_divider" figma_node_id="4:116" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
+		<style name="screen_background" bg_color="0x000000" bg_opa="255" border_width="0" radius="0" />
+		<style name="album_artwork" bg_color="0x222222" bg_opa="255" border_width="0" radius="0" />
+		<style name="track_title" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="track_artist" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="audio_format" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="playback_time" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="progress_track" bg_color="0x333333" bg_opa="255" border_width="0" radius="3" />
+		<style name="progress_fill" bg_color="0xffffff" bg_opa="255" border_width="0" radius="3" />
+		<style name="bluetooth_label" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="eq_mode_label" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="all_filter_label" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="quality_badge_box" bg_color="0x222222" bg_opa="255" border_width="0" radius="2" />
+		<style name="quality_badge_label" text_color="0xffffff" text_opa="255" bg_opa="0" />
+		<style name="headphone_icon_box" bg_opa="0" border_width="0" radius="0" />
+		<style name="headphone_icon_glyph" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
+		<style name="header_title_divider" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
+		<style name="metadata_progress_divider" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
+		<style name="status_divider" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
 	</styles>
 
 	<view width="480" height="206" style_bg_color="0x000000" style_bg_opa="255" style_border_width="0" scrollable="false">
