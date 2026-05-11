@@ -6,12 +6,12 @@
 		<style name="track_artist" figma_node_id="1:10" text_color="0xffffff" text_opa="255" bg_opa="0" />
 		<style name="audio_format" figma_node_id="1:11" text_color="0xffffff" text_opa="255" bg_opa="0" />
 		<style name="playback_time" figma_node_id="1:13" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="progress_track" figma_node_id="1:14" bg_color="0x333333" bg_opa="255" border_width="0" radius="5" />
-		<style name="progress_fill" figma_node_id="1:15" bg_color="0xffffff" bg_opa="255" border_width="0" radius="5" />
+		<style name="progress_track" figma_node_id="1:14" bg_color="0x333333" bg_opa="255" border_width="0" radius="3" />
+		<style name="progress_fill" figma_node_id="1:15" bg_color="0xffffff" bg_opa="255" border_width="0" radius="3" />
 		<style name="bluetooth_label" figma_node_id="1:17" text_color="0xffffff" text_opa="255" bg_opa="0" />
 		<style name="eq_mode_label" figma_node_id="1:18" text_color="0xffffff" text_opa="255" bg_opa="0" />
 		<style name="all_filter_label" figma_node_id="1:22" text_color="0xffffff" text_opa="255" bg_opa="0" />
-		<style name="quality_badge_box" figma_node_id="1:6" bg_color="0x222222" bg_opa="255" border_width="0" radius="4" />
+		<style name="quality_badge_box" figma_node_id="1:6" bg_color="0x222222" bg_opa="255" border_width="0" radius="2" />
 		<style name="quality_badge_label" figma_node_id="1:7" text_color="0xffffff" text_opa="255" bg_opa="0" />
 		<style name="headphone_icon_box" figma_node_id="1:20" bg_opa="0" border_width="0" radius="0" />
 		<style name="headphone_icon_glyph" figma_node_id="4:121" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
@@ -20,69 +20,69 @@
 		<style name="status_divider" figma_node_id="4:116" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
 	</styles>
 
-	<view width="960" height="412" style_bg_color="0x000000" style_bg_opa="255" style_border_width="0" scrollable="false">
+	<view width="480" height="206" style_bg_color="0x000000" style_bg_opa="255" style_border_width="0" scrollable="false">
 		<style name="screen_background" />
 
-		<lv_obj name="album_artwork" x="16" y="16" width="380" height="380" style_border_width="0">
+		<lv_obj name="album_artwork" x="8" y="8" width="190" height="190" style_border_width="0">
 			<style name="album_artwork" />
 		</lv_obj>
 
-		<lv_label name="track_title" text="Hotel California" x="412" y="120" width="438" height="46">
+		<lv_label name="track_title" text="Hotel California" x="206" y="60" width="219" height="23">
 			<style name="track_title" />
 		</lv_label>
-		<lv_label name="track_artist" text="Eagles" x="416" y="206" width="358" height="17">
+		<lv_label name="track_artist" text="Eagles" x="208" y="103" width="179" height="9">
 			<style name="track_artist" />
 		</lv_label>
-		<lv_label name="audio_format" text="44.1kHz / 16bit" x="416" y="292" width="161" height="17">
+		<lv_label name="audio_format" text="44.1kHz / 16bit" x="208" y="146" width="81" height="9">
 			<style name="audio_format" />
 		</lv_label>
 
-		<lv_obj name="header_title_divider" x="416" y="90" width="518" height="2">
+		<lv_obj name="header_title_divider" x="208" y="45" width="259" height="1">
 			<style name="header_title_divider" />
 		</lv_obj>
-		<lv_obj name="metadata_progress_divider" x="416" y="254" width="518" height="2">
+		<lv_obj name="metadata_progress_divider" x="208" y="127" width="259" height="1">
 			<style name="metadata_progress_divider" />
 		</lv_obj>
 
-		<lv_label name="playback_time" text="0:58 / 6:30" x="416" y="335" width="106" height="13">
+		<lv_label name="playback_time" text="0:58 / 6:30" x="208" y="168" width="53" height="7">
 			<style name="playback_time" />
 		</lv_label>
-		<lv_obj name="progress_track" x="416" y="360" width="518" height="10">
+		<lv_obj name="progress_track" x="208" y="180" width="259" height="5">
 			<style name="progress_track" />
 		</lv_obj>
-		<lv_obj name="progress_fill" x="416" y="360" width="204" height="10">
+		<lv_obj name="progress_fill" x="208" y="180" width="102" height="5">
 			<style name="progress_fill" />
 		</lv_obj>
 
-		<lv_label name="bluetooth_label" text="BT" x="412" y="24" width="39" height="21">
+		<lv_label name="bluetooth_label" text="BT" x="206" y="12" width="20" height="11">
 			<style name="bluetooth_label" />
 		</lv_label>
-		<lv_label name="eq_mode_label" text="EQ" x="480" y="24" width="61" height="21">
+		<lv_label name="eq_mode_label" text="EQ" x="240" y="12" width="31" height="11">
 			<style name="eq_mode_label" />
 		</lv_label>
-		<lv_label name="all_filter_label" text="All" x="629" y="24" width="60" height="21">
+		<lv_label name="all_filter_label" text="All" x="315" y="12" width="30" height="11">
 			<style name="all_filter_label" />
 		</lv_label>
-		<lv_obj name="status_divider_bt_eq" x="466" y="24" width="2" height="21">
+		<lv_obj name="status_divider_bt_eq" x="233" y="12" width="1" height="11">
 			<style name="status_divider" />
 		</lv_obj>
-		<lv_obj name="status_divider_eq_hp" x="551" y="24" width="2" height="21">
+		<lv_obj name="status_divider_eq_hp" x="276" y="12" width="1" height="11">
 			<style name="status_divider" />
 		</lv_obj>
-		<lv_obj name="status_divider_hp_all" x="615" y="24" width="2" height="21">
+		<lv_obj name="status_divider_hp_all" x="308" y="12" width="1" height="11">
 			<style name="status_divider" />
 		</lv_obj>
 
-		<lv_obj name="headphone_icon_box" x="568" y="19" width="32" height="32">
+		<lv_obj name="headphone_icon_box" x="284" y="10" width="16" height="16">
 			<style name="headphone_icon_box" />
-			<lv_obj name="headphone_icon_glyph" x="0" y="4" width="32" height="24">
+			<lv_obj name="headphone_icon_glyph" x="0" y="2" width="16" height="12">
 				<style name="headphone_icon_glyph" />
 			</lv_obj>
 		</lv_obj>
 
-		<lv_obj name="quality_badge_box" x="594" y="288" width="46" height="26">
+		<lv_obj name="quality_badge_box" x="297" y="144" width="23" height="13">
 			<style name="quality_badge_box" />
-			<lv_label name="quality_badge_label" text="SQ" x="10" y="2" width="26" height="21">
+			<lv_label name="quality_badge_label" text="SQ" x="5" y="1" width="13" height="11">
 				<style name="quality_badge_label" />
 			</lv_label>
 		</lv_obj>
