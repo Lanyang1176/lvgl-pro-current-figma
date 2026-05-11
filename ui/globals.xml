@@ -11,10 +11,10 @@
 	</images>
 
 	<fonts>
-		<tiny_ttf as_file="true" name="liberation_18" src_path="fonts/LiberationSans-Regular.ttf" range="0x20-0x7f" size="18" />
-		<tiny_ttf as_file="true" name="liberation_24" src_path="fonts/LiberationSans-Regular.ttf" range="0x20-0x7f" size="24" />
-		<tiny_ttf as_file="true" name="liberation_30" src_path="fonts/LiberationSans-Regular.ttf" range="0x20-0x7f" size="30" />
-		<tiny_ttf as_file="true" name="liberation_64" src_path="fonts/LiberationSans-Regular.ttf" range="0x20-0x7f" size="64" />
+		<tiny_ttf as_file="true" name="arimo_18" src_path="fonts/Arimo-Regular.ttf" range="0x20-0x7f" size="18" />
+		<tiny_ttf as_file="true" name="arimo_24" src_path="fonts/Arimo-Regular.ttf" range="0x20-0x7f" size="24" />
+		<tiny_ttf as_file="true" name="arimo_30" src_path="fonts/Arimo-Regular.ttf" range="0x20-0x7f" size="30" />
+		<tiny_ttf as_file="true" name="arimo_64" src_path="fonts/Arimo-Regular.ttf" range="0x20-0x7f" size="64" />
 		<tiny_ttf as_file="true" name="work_18" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="18" />
 		<tiny_ttf as_file="true" name="work_24" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="24" />
 		<tiny_ttf as_file="true" name="work_30" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="30" />
