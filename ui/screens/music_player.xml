@@ -2,13 +2,13 @@
 	<styles>
 		<style name="screen_background" figma_node_id="2:56" bg_color="0x000000" bg_opa="255" border_width="0" radius="0" pad_all="0" />
 
-		<style name="header_text" text_color="0xffffff" text_opa="255" text_font="arimo_30" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="header_text_cn" figma_node_id="1:22" text_color="0xffffff" text_opa="255" text_font="cn_30" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="title_text" figma_node_id="1:9" text_color="0xffffff" text_opa="255" text_font="arimo_64" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="artist_text" figma_node_id="1:10" text_color="0xffffff" text_opa="128" text_font="arimo_24" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="format_text" figma_node_id="1:11" text_color="0xffffff" text_opa="255" text_font="arimo_24" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="progress_time_text" figma_node_id="1:13" text_color="0xffffff" text_opa="255" text_font="arimo_18" bg_opa="0" border_width="0" pad_all="0" />
-		<style name="quality_label" figma_node_id="1:7" text_color="0xff8800" text_opa="255" text_font="arimo_18" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="header_text" text_color="0xffffff" text_opa="255" text_font="arial_30" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="header_text_cn" figma_node_id="1:22" text_color="0xffffff" text_opa="255" text_font="arial_cn_30" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="title_text" figma_node_id="1:9" text_color="0xffffff" text_opa="255" text_font="arial_64" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="artist_text" figma_node_id="1:10" text_color="0xffffff" text_opa="128" text_font="arial_24" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="format_text" figma_node_id="1:11" text_color="0xffffff" text_opa="255" text_font="arial_24" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="progress_time_text" figma_node_id="1:13" text_color="0xffffff" text_opa="255" text_font="arial_18" bg_opa="0" border_width="0" pad_all="0" />
+		<style name="quality_label" figma_node_id="1:7" text_color="0xff8800" text_opa="255" text_font="arial_18" bg_opa="0" border_width="0" pad_all="0" />
 
 		<style name="header_divider" bg_color="0xffffff" bg_opa="128" border_width="0" radius="0" pad_all="0" />
 		<style name="section_divider" bg_color="0xffffff" bg_opa="26" border_width="0" radius="0" pad_all="0" />
