@@ -13,6 +13,7 @@
 	<fonts>
 		<tiny_ttf as_file="true" name="arial_18" src_path="fonts/Arial.ttf" range="0x20-0x7f" size="18" />
 		<tiny_ttf as_file="true" name="arial_24" src_path="fonts/Arial.ttf" range="0x20-0x7f" size="24" />
+		<tiny_ttf as_file="true" name="arial_26" src_path="fonts/Arial.ttf" range="0x20-0x7f" size="26" />
 		<tiny_ttf as_file="true" name="arial_30" src_path="fonts/Arial.ttf" range="0x20-0x7f" size="30" />
 		<tiny_ttf as_file="true" name="arial_64" src_path="fonts/Arial.ttf" range="0x20-0x7f" size="64" />
 		<tiny_ttf as_file="true" name="work_18" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="18" />
@@ -20,7 +21,7 @@
 		<tiny_ttf as_file="true" name="work_30" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="30" />
 		<tiny_ttf as_file="true" name="work_54" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="54" />
 		<tiny_ttf as_file="true" name="work_64" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="64" />
-		<tiny_ttf as_file="true" name="arial_cn_30" src_path="fonts/ArialUnicode-cn-subset.ttf" symbols="全部" size="30" />
+		<tiny_ttf as_file="true" name="arial_cn_26" src_path="fonts/ArialUnicode-cn-subset.ttf" symbols="全部" size="26" />
 	</fonts>
 
 	<styles>
