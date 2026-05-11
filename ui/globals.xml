@@ -5,8 +5,13 @@
 		<color name="screen_muted" value="0x333333" />
 	</consts>
 
+	<images>
+		<file name="music_player_screen" src_path="images/music_player_screen.png" />
+		<file name="album_artwork" src_path="images/album_artwork.png" />
+		<file name="headphone_icon" src_path="images/headphone_icon.png" />
+	</images>
+
 	<styles>
 		<style name="reset" bg_opa="0" border_width="0" radius="0" pad_all="0" />
 	</styles>
 </globals>
-
