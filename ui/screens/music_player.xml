@@ -1,10 +1,79 @@
 <screen>
 	<styles>
-		<style name="screen_background" bg_color="0x000000" bg_opa="255" border_width="0" radius="0" />
+		<style name="screen_background" figma_node_id="2:56" bg_color="0x000000" bg_opa="255" border_width="0" radius="0" pad_all="0" />
+		<style name="header_text_bt" figma_node_id="1:17" text_color="0xffffff" text_opa="255" text_font="work_30" />
+		<style name="header_text_eq" figma_node_id="1:18" text_color="0xffffff" text_opa="255" text_font="work_30" />
+		<style name="header_text_cn" figma_node_id="1:22" text_color="0xffffff" text_opa="255" text_font="cn_30" />
+		<style name="title_text" figma_node_id="1:9" text_color="0xffffff" text_opa="255" text_font="work_64" />
+		<style name="artist_text" figma_node_id="1:10" text_color="0xffffff" text_opa="255" text_font="work_24" />
+		<style name="format_text" figma_node_id="1:11" text_color="0xffffff" text_opa="255" text_font="work_24" />
+		<style name="progress_time_text" figma_node_id="1:13" text_color="0xffffff" text_opa="255" text_font="work_18" />
+		<style name="quality_label" figma_node_id="1:7" text_color="0xff8800" text_opa="255" text_font="work_18" />
+		<style name="white_bar" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
+		<style name="progress_track" figma_node_id="1:14" bg_color="0x2f2f2f" bg_opa="255" border_width="0" radius="0" />
+		<style name="progress_fill" figma_node_id="1:15" bg_color="0xb2ff00" bg_opa="255" border_width="0" radius="0" />
+		<style name="quality_badge" figma_node_id="1:6" bg_color="0xff8800" bg_opa="51" border_color="0xff8800" border_opa="255" border_width="1" radius="4" />
+		<style name="headphone_box" figma_node_id="1:20" bg_color="0xffffff" bg_opa="255" border_width="0" radius="0" />
 	</styles>
 
-	<view width="960" height="412" style_bg_color="0x000000" style_bg_opa="255" style_border_width="0" scrollable="false">
+	<view name="music_player_screen" width="960" height="412" scrollable="false">
 		<style name="screen_background" />
-		<lv_image name="music_player_screen_reference" src="music_player_screen" x="0" y="0" />
+
+		<lv_image name="album_artwork_image" src="album_artwork" x="16" y="16" />
+
+		<lv_label name="bluetooth_label" text="BT" x="412" y="24" width="39" height="32">
+			<style name="header_text_bt" />
+		</lv_label>
+		<view name="bluetooth_eq_divider" x="466" y="24" width="2" height="21">
+			<style name="white_bar" />
+		</view>
+		<lv_label name="eq_mode_label" text="EQ2" x="480" y="24" width="61" height="32">
+			<style name="header_text_eq" />
+		</lv_label>
+		<view name="eq_headphone_divider" x="551" y="24" width="2" height="21">
+			<style name="white_bar" />
+		</view>
+		<view name="headphone_icon_box" x="568" y="19" width="32" height="32">
+			<style name="headphone_box" />
+			<lv_image name="headphone_icon_glyph" src="headphone_icon" x="0" y="4" />
+		</view>
+		<view name="headphone_all_divider" x="615" y="24" width="2" height="21">
+			<style name="white_bar" />
+		</view>
+		<lv_label name="all_filter_label" text="全部" x="629" y="24" width="60" height="32">
+			<style name="header_text_cn" />
+		</lv_label>
+
+		<view name="header_title_divider" x="416" y="90" width="518" height="2">
+			<style name="white_bar" />
+		</view>
+		<lv_label name="track_title_label" text="Hotel California" x="412" y="101" width="438" height="82">
+			<style name="title_text" />
+		</lv_label>
+		<lv_label name="track_artist_label" text="Eagles / Glenn Frey / Don Henley" x="416" y="200" width="358" height="34">
+			<style name="artist_text" />
+		</lv_label>
+		<view name="metadata_progress_divider" x="416" y="254" width="518" height="2">
+			<style name="white_bar" />
+		</view>
+		<lv_label name="audio_format_label" text="44.1kHz / 16bit" x="416" y="286" width="161" height="34">
+			<style name="format_text" />
+		</lv_label>
+		<view name="quality_badge_box" x="594" y="288" width="46" height="26">
+			<style name="quality_badge" />
+			<lv_label name="quality_badge_label" text="SQ" x="10" y="3" width="26" height="21">
+				<style name="quality_label" />
+			</lv_label>
+		</view>
+
+		<lv_label name="playback_time_label" text="02:16 / 05:39" x="416" y="333" width="132" height="24">
+			<style name="progress_time_text" />
+		</lv_label>
+		<view name="progress_track_bar" x="416" y="360" width="518" height="10">
+			<style name="progress_track" />
+		</view>
+		<view name="progress_fill_bar" x="416" y="360" width="204" height="10">
+			<style name="progress_fill" />
+		</view>
 	</view>
 </screen>

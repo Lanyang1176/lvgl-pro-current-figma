@@ -1,16 +1,16 @@
 # LVGL Pro current Figma binding
 
-This is a conservative LVGL Pro handoff scaffold for the current Figma file.
+This is an LVGL Pro handoff scaffold for the current Figma file.
 
 - Figma document: `VJOm3ZfzAjGQgG9LXL914P`
 - Figma root frame: `2:56` / `MusicPlayerScreen`
-- Target display: `480 x 206`
+- Target display: `960 x 412`
 
-The original Figma frame is kept as the source geometry. The LVGL Pro target is a conservative 0.5 scale so the test screen does not treat the oversized Figma canvas as the device resolution.
+The original Figma frame is the source geometry. The LVGL Pro target matches the current frame at `960 x 412`.
 
 `project_local.xml` must stay local because it contains the Figma personal access token. Use `project_local.example.xml` as the shape.
 
-LVGL Pro Figma Sync updates XML styles that include `figma_node_id`. It does not auto-import the entire Figma frame; the screen structure still needs to be maintained as LVGL XML.
+LVGL Pro Figma Sync updates XML styles that include `figma_node_id`. Per the official Figma Integration docs, this is not a magical auto-importer: the screen structure is maintained as LVGL XML, and the copied/synced Figma styles attach to real XML objects. `screens/music_player.xml` is therefore an XML-composed screen, while `music_player_screen.png` is kept only as a visual reference asset.
 
 Open in LVGL Pro Viewer:
 

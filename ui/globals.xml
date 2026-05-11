@@ -11,6 +11,14 @@
 		<file name="headphone_icon" src_path="images/headphone_icon.png" />
 	</images>
 
+	<fonts>
+		<tiny_ttf as_file="true" name="work_18" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="18" />
+		<tiny_ttf as_file="true" name="work_24" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="24" />
+		<tiny_ttf as_file="true" name="work_30" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="30" />
+		<tiny_ttf as_file="true" name="work_64" src_path="fonts/WorkSans-Regular.ttf" range="0x20-0x7f" size="64" />
+		<tiny_ttf as_file="true" name="cn_30" src_path="fonts/TsangerJinKai02-W04.ttf" range="0x20-0x7f" symbols="全部" size="30" />
+	</fonts>
+
 	<styles>
 		<style name="reset" bg_opa="0" border_width="0" radius="0" pad_all="0" />
 	</styles>
