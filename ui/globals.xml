@@ -6,11 +6,8 @@
 	</consts>
 
 	<images>
-		<data name="music_player_screen" color_format="argb8888" src_path="images/music_player_screen.png" />
 		<data name="album_artwork" color_format="argb8888" src_path="images/album_artwork.png" />
 		<data name="headphone_icon" color_format="argb8888" src_path="images/headphone_icon.png" />
-		<data name="pixel_album_artwork" color_format="argb8888" src_path="images/pixel_album_artwork.png" />
-		<data name="pixel_right_panel" color_format="argb8888" src_path="images/pixel_right_panel.png" />
 	</images>
 
 	<fonts>
