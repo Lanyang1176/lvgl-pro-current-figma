@@ -10,3 +10,8 @@ This is a conservative LVGL Pro handoff scaffold for the current Figma file.
 
 LVGL Pro Figma Sync updates XML styles that include `figma_node_id`. It does not auto-import the entire Figma frame; the screen structure still needs to be maintained as LVGL XML.
 
+Open in LVGL Pro Viewer:
+
+```text
+https://viewer.lvgl.io/?repo=https%3A%2F%2Fgithub.com%2FLanyang1176%2Flvgl-pro-current-figma%2Ftree%2Fmain%2Fui
+```
