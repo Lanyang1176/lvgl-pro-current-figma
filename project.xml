@@ -1,0 +1,8 @@
+<project name="current_figma_music_player">
+	<targets>
+		<target name="music_player_960x412">
+			<display width="960" height="412" />
+		</target>
+	</targets>
+</project>
+
