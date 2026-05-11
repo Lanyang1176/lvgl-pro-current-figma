@@ -9,6 +9,8 @@
 		<file name="music_player_screen" src_path="images/music_player_screen.png" />
 		<file name="album_artwork" src_path="images/album_artwork.png" />
 		<file name="headphone_icon" src_path="images/headphone_icon.png" />
+		<file name="pixel_album_artwork" src_path="images/pixel/album_artwork.png" />
+		<file name="pixel_right_panel" src_path="images/pixel/right_panel.png" />
 	</images>
 
 	<fonts>
