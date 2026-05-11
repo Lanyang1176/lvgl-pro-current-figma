@@ -1,4 +1,4 @@
-<project name="current_figma_music_player">
+<project name="examples">
 	<targets>
 		<target name="music_player_480x206">
 			<display width="480" height="206" />
