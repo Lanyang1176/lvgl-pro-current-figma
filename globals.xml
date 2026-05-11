@@ -1,0 +1,12 @@
+<globals>
+	<consts>
+		<color name="screen_black" value="0x000000" />
+		<color name="screen_white" value="0xffffff" />
+		<color name="screen_muted" value="0x333333" />
+	</consts>
+
+	<styles>
+		<style name="reset" bg_opa="0" border_width="0" radius="0" pad_all="0" />
+	</styles>
+</globals>
+
