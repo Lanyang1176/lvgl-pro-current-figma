@@ -22,13 +22,13 @@
 
 		<lv_image name="album_artwork_image" src="album_artwork" x="16" y="16" />
 
-		<lv_label name="bluetooth_label" text="BT" x="412" y="19" width="39" height="32">
+		<lv_label name="bluetooth_label" text="BT" x="412" y="17" width="39" height="32">
 			<style name="header_text" />
 		</lv_label>
 		<lv_obj name="bluetooth_eq_divider" x="466" y="24" width="2" height="21">
 			<style name="header_divider" />
 		</lv_obj>
-		<lv_label name="eq_mode_label" text="EQ2" x="480" y="19" width="61" height="32">
+		<lv_label name="eq_mode_label" text="EQ2" x="480" y="17" width="61" height="32">
 			<style name="header_text" />
 		</lv_label>
 		<lv_obj name="eq_headphone_divider" x="551" y="24" width="2" height="21">
@@ -38,7 +38,7 @@
 		<lv_obj name="headphone_all_divider" x="615" y="24" width="2" height="21">
 			<style name="header_divider" />
 		</lv_obj>
-		<lv_label name="all_filter_label" text="全部" x="629" y="19" width="60" height="32">
+		<lv_label name="all_filter_label" text="全部" x="629" y="17" width="60" height="32">
 			<style name="header_text_cn" />
 		</lv_label>
 
